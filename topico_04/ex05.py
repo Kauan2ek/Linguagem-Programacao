@@ -7,13 +7,13 @@
 N = 4  # 10
 nomes = []
 
-for i in range(N):
-    nomes.append(input(f'Nome {i + 1}: '))
+# for i in range(N):
+#     nomes.append(input(f'Nome {i + 1}: '))
 
 # nomes = ['Pedro', 'Maria', 'Carlos', 'Pedro', 'Maria', 'Joao', 'Pedro', 'Pedro', 'Maria', 'Pedro']
+nomes = ['Pedro', 'João', 'Pedro', 'João', 'Pedro', 'Maria', 'Maria', 'Carlos']
 
-for index, pessoa in enumerate(nomes):
-
+for pessoa in nomes:
     quantidade = 1
     if nomes.count(pessoa) > 1:
         for i, nome in enumerate(nomes):
